@@ -1,0 +1,124 @@
+[
+  {
+    "id": "html-basics",
+    "title": "Fundamentos de HTML",
+    "category": "HTML",
+    "description": "Estructura básica de una página, etiquetas más comunes, semántica y buenas prácticas.",
+    "status": "pending",
+    "estimatedHours": 6,
+    "tags": ["estructura", "semántica", "accesibilidad"],
+    "resources": [
+      {
+        "label": "MDN - Introducción a HTML",
+        "url": "https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML"
+      }
+    ]
+  },
+  {
+    "id": "css-basics",
+    "title": "Fundamentos de CSS",
+    "category": "CSS",
+    "description": "Selectores, cascada, box model, display, colores y tipografías.",
+    "status": "pending",
+    "estimatedHours": 8,
+    "tags": ["selectores", "box-model", "layout"],
+    "resources": [
+      {
+        "label": "MDN - Guía de CSS",
+        "url": "https://developer.mozilla.org/es/docs/Web/CSS"
+      }
+    ]
+  },
+  {
+    "id": "responsive-design",
+    "title": "Diseño responsive",
+    "category": "CSS",
+    "description": "Media queries, unidades relativas, mobile-first y buenas prácticas de diseño adaptativo.",
+    "status": "pending",
+    "estimatedHours": 6,
+    "tags": ["responsive", "mobile-first"],
+    "resources": [
+      {
+        "label": "CSS Tricks - Responsive Design",
+        "url": "https://css-tricks.com/snippets/css/media-queries-for-standard-devices/"
+      }
+    ]
+  },
+  {
+    "id": "js-basics",
+    "title": "Fundamentos de JavaScript",
+    "category": "JavaScript",
+    "description": "Tipos, variables, funciones, scope, DOM y eventos.",
+    "status": "pending",
+    "estimatedHours": 12,
+    "tags": ["dom", "eventos", "fundamentos"],
+    "resources": [
+      {
+        "label": "Eloquent JavaScript (gratis online)",
+        "url": "https://eloquentjavascript.net/"
+      }
+    ]
+  },
+  {
+    "id": "js-async",
+    "title": "JavaScript Asíncrono",
+    "category": "JavaScript",
+    "description": "Callbacks, Promises, async/await y consumo de APIs.",
+    "status": "pending",
+    "estimatedHours": 10,
+    "tags": ["promises", "async-await", "api"],
+    "resources": [
+      {
+        "label": "MDN - Asynchronous JavaScript",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous"
+      }
+    ]
+  },
+  {
+    "id": "react-basics",
+    "title": "Fundamentos de React",
+    "category": "React",
+    "description": "Componentes, props, estado, JSX y ciclo de vida con hooks.",
+    "status": "pending",
+    "estimatedHours": 14,
+    "tags": ["hooks", "jsx", "estado"],
+    "resources": [
+      {
+        "label": "Documentación oficial de React",
+        "url": "https://react.dev/"
+      }
+    ]
+  },
+  {
+    "id": "react-routing",
+    "title": "Routing con React Router",
+    "category": "React",
+    "description": "Rutas, navegación, rutas anidadas y parámetros.",
+    "status": "pending",
+    "estimatedHours": 6,
+    "tags": ["routing", "spa"],
+    "resources": [
+      {
+        "label": "React Router Docs",
+        "url": "https://reactrouter.com/"
+      }
+    ]
+  },
+  {
+    "id": "state-management",
+    "title": "Manejo de estado global",
+    "category": "Arquitectura",
+    "description": "Context, Zustand y patrones para compartir estado entre componentes.",
+    "status": "pending",
+    "estimatedHours": 8,
+    "tags": ["zustand", "context"],
+    "resources": [
+      {
+        "label": "Documentación de Zustand",
+        "url": "https://docs.pmnd.rs/zustand/getting-started/introduction"
+      }
+    ]
+  }
+]
+
+

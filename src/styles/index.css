@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply antialiased;
+  @apply bg-slate-50 text-slate-900;
+  @apply dark:bg-slate-950 dark:text-slate-50;
+}
+
+/* Tamaños de fuente */
+.font-sm {
+  font-size: 0.875rem;
+}
+
+.font-md {
+  font-size: 1rem;
+}
+
+.font-lg {
+  font-size: 1.125rem;
+}
+
+/* Tema claro/oscuro - colores más cálidos y menos blancos */
+.app-shell {
+  @apply min-h-screen transition-colors;
+  @apply bg-gradient-to-b from-slate-50 via-slate-100/50 to-slate-50 text-slate-900;
+  @apply dark:bg-gradient-to-b dark:from-slate-950 dark:via-slate-950 dark:to-slate-900 dark:text-slate-50;
+}
+
+.card {
+  @apply rounded-xl border shadow-md backdrop-blur transition-all duration-200;
+  @apply border-slate-300/60 bg-white shadow-slate-200/50;
+  @apply hover:border-slate-400/80 hover:shadow-lg hover:shadow-slate-300/50 hover:bg-white;
+  @apply dark:border-slate-800 dark:bg-slate-900/80 dark:shadow-black/40;
+  @apply dark:hover:shadow-xl dark:hover:shadow-black/60 dark:hover:border-slate-700;
+}
+
+.chip {
+  @apply inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium;
+  @apply bg-slate-200 text-slate-800;
+  @apply dark:bg-slate-800 dark:text-slate-200;
+}
+
+
