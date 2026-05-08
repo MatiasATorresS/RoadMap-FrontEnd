@@ -2,7 +2,6 @@
 
 Proyecto de roadmap interactivo diseñado para guiar y hacer seguimiento en el aprendizaje de Frontend. Construido con un stack moderno enfocado en la experiencia de usuario y animaciones fluidas.
 
-![Screenshot de la app](link-a-tu-imagen.png) <!-- Reemplazar con una captura real -->
 
 ## Características Principales
 
